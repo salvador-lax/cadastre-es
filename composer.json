@@ -1,0 +1,22 @@
+{
+    "name": "salvador-lax/cadastre-es",
+    "description": "Library to get cadastral information from the official API REST of the Spanish gobernment.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"        
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SalvadorLax\\CadastreEs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salvador Lax",
+            "email": "salvadorlax@outlook.es"
+        }
+    ],
+    "minimum-stability": "stable"
+}
